@@ -75,3 +75,37 @@ a:hover {
     font-size: 16px;
     cursor: pointer;
 }
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(23, 89, 74);
+}
+
+.members{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1350px;
+}
+
+.info h1{
+    font-size: 56px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: rgb(142, 172, 80);
+}
+
+.members img{
+    width: 350px;
+    height: 250px;
+    margin-bottom: 35px;
+    border-radius: 7%;
+}
+
+.members p{
+    font-size: 17px;
+    text-align: center;
+    color: rgb(211, 208, 79);
+    margin-bottom: 50px;
+}
