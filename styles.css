@@ -62,12 +62,12 @@ a:hover {
     font-size: 25px;
 }
 
-.herotext button{
+button{
     margin-top: 40px;
     margin-left: 300px;
     background-color: rgb(142, 172, 80);
     border: none;
-    color: black;
+    color: rgb(33, 51, 99);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -108,4 +108,61 @@ a:hover {
     text-align: center;
     color: rgb(211, 208, 79);
     margin-bottom: 50px;
+}
+
+.quote{
+    display: flex;
+    background-color: rgb(33, 51, 99);
+    justify-content: center;
+}
+
+.quote p{
+    font-size: 42px;
+    font-style: italic;
+    font-weight: lighter;
+    color: rgb(142, 172, 80);
+    margin-top: 75px;   
+}
+#quoter{
+    font-style: normal;
+    margin-bottom: 50px;
+}
+
+.container{
+    height: 450px;
+    background-color: rgb(23, 89, 74);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup{
+    background-color: rgb(33, 51, 99);
+    height: 200px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.signup h1{
+    color: rgb(142, 172, 80);
+}
+.signup p{
+    color: rgb(211, 208, 79);
+}
+
+.footer{
+    background-color: rgb(33, 51, 99);
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p{
+    font-size: 25px;
+    color: wheat;
 }
